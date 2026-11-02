@@ -3,6 +3,9 @@ An end-to-end Deep Learning project that classifies 26 different subclasses of c
 
 ## 📊 Dataset Overview
 The dataset contains **130,002 images** categorized into **26 distinct classes** encompassing various types of cancer (e.g., Brain Tumor, Breast Malignant, Colon Adenocarcinoma, Lung Squamous Cell Carcinoma, etc.).
+
+**Dataset Source:** [Download from Kaggle](https://www.kaggle.com/datasets/obulisainaren/multi-cancer)
+
 - **Input Size:** Resized to 224x224 pixels.
 - **Normalization:** ImageNet standards `(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])`.
 - **Split:** 80% Training, 20% Validation.
@@ -39,6 +42,9 @@ The model demonstrated robust performance across all 26 classes, handling class 
 
 
 ## 🚀 Usage
+
+You can view the full code in [notebook](notebooka45780a5bf.ipynb)
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/Abo3adel/multi-cancer-classification.git
